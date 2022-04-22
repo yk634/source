@@ -1,0 +1,5 @@
+jobs:
+  main:
+    image: centos:centos7
+    steps:
+      - echo: echo hoge
