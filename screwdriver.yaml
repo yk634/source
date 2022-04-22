@@ -1,5 +1,8 @@
 jobs:
   main:
     image: centos:centos7
+    requires:
+      - ~pr
+      - ~commit
     steps:
       - echo: echo hoge
