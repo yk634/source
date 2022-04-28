@@ -8,7 +8,7 @@ jobs:
       - echo: echo hoge
 
   job-1-3:
-    requires: sd@9298:job-1-1
+    requires: job-1-2
     steps:
       - echo: echo hoge
 
