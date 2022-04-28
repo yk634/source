@@ -3,7 +3,7 @@ shared:
 
 jobs:
   job-1-2:
-    requires: sd@9298:job-1-1
+    requires: ~sd@9298:job-1-1
     steps:
       - echo: echo hoge
 
@@ -13,6 +13,6 @@ jobs:
       - echo: echo hoge
 
   job-2-2:
-    requires: sd@9298:job-2-1
+    requires: ~sd@9298:job-2-1
     steps:
       - echo: echo hoge
